@@ -6,7 +6,7 @@ class HelloWorld(unittest.TestCase):
 
     @classmethod
     def setUpClass(cls):
-        cls.driver = webdriver.Chrome(executable_path=r'./chromedriver.exe')
+        cls.driver = webdriver.Chrome(executable_path=r'../../chromedriver.exe')
         driver = cls.driver
         driver.implicitly_wait(10)
     

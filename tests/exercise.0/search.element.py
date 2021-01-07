@@ -6,7 +6,7 @@ class HomePageTests(unittest.TestCase):
 
     @classmethod
     def setUpClass(cls):
-        cls.driver = webdriver.Chrome(executable_path=r'./chromedriver.exe')
+        cls.driver = webdriver.Chrome(executable_path=r'../../chromedriver.exe')
         driver = cls.driver
         driver.get('http://demo-store.seleniumacademy.com')
         driver.maximize_window()
