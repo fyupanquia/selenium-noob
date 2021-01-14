@@ -9,7 +9,7 @@ class CSSSelector(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
         cls.driver = webdriver.Chrome(
-            executable_path=r'../../chromedriver.exe')
+            executable_path=r'chromedriver.exe')
         cls.driver.maximize_window()
 
     def test_mercado_libre(self):
